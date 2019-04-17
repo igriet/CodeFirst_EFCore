@@ -1,0 +1,6 @@
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.1\CodeFirst.EFCore.Domain.deps.json
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.1\CodeFirst.EFCore.Domain.dll
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.1\CodeFirst.EFCore.Domain.csprojAssemblyReference.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.1\CodeFirst.EFCore.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.1\CodeFirst.EFCore.Domain.AssemblyInfoInputs.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.1\CodeFirst.EFCore.Domain.AssemblyInfo.cs
