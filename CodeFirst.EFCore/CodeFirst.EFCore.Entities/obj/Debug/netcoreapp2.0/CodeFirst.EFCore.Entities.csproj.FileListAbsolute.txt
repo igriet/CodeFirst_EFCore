@@ -1,0 +1,10 @@
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.deps.json
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.runtimeconfig.json
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.runtimeconfig.dev.json
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.dll
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.pdb
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.csproj.CoreCompileInputs.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.AssemblyInfoInputs.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.AssemblyInfo.cs
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.dll
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.pdb

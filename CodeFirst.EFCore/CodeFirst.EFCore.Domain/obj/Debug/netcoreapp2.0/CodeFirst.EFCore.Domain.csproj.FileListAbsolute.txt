@@ -1,0 +1,16 @@
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.deps.json
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.runtimeconfig.json
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.runtimeconfig.dev.json
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.dll
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.pdb
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Data.dll
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.dll
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Data.pdb
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\bin\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.pdb
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.csprojAssemblyReference.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.AssemblyInfoInputs.cache
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.AssemblyInfo.cs
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.csproj.CopyComplete
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.dll
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Domain\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Domain.pdb
