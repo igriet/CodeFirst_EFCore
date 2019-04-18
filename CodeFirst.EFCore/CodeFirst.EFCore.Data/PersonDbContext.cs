@@ -10,12 +10,6 @@ namespace CodeFirst.EFCore.Data
 {
     public class PersonDbContext : DbContext
     {
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer("CodeFirstEFCoreDBConnection");
-        //    base.OnConfiguring(optionsBuilder);
-        //}
-
         public DbSet<Person> People { get; set; }
         public DbSet<Phone> Phones { get; set; }
 
