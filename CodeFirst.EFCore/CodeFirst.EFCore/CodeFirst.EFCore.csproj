@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +21,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CodeFirst.EFCore.Data\CodeFirst.EFCore.Data.csproj" />
+    <ProjectReference Include="..\CodeFirst.EFCore.Domain\CodeFirst.EFCore.Domain.csproj" />
+    <ProjectReference Include="..\CodeFirst.EFCore.Entities\CodeFirst.EFCore.Entities.csproj" />
   </ItemGroup>
 
 </Project>
