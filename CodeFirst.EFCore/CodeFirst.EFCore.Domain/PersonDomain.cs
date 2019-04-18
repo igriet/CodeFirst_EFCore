@@ -2,6 +2,7 @@
 using CodeFirst.EFCore.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CodeFirst.EFCore.Domain
@@ -20,6 +21,11 @@ namespace CodeFirst.EFCore.Domain
             person.PersonId = Guid.NewGuid();
             _context.Set<Person>().Add(person);
             _context.SaveChanges();
+        }
+
+        public IQueryable<Person> GetAll()
+        {
+            return _context.Set<Person>().AsQueryable();
         }
     }
 }

@@ -22,9 +22,10 @@ namespace CodeFirst.EFCore.Controllers
         }
         // GET: api/Person
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Person> Get()
         {
-            return new string[] { "value1", "value2" };
+            var domain = new PersonDomain(_context);
+            return domain.GetAll();
         }
 
         // GET: api/Person/5
