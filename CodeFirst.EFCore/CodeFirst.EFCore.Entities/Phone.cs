@@ -22,5 +22,8 @@ namespace CodeFirst.EFCore.Entities
     {
         public Guid PhoneId { get; set; }
         public string Telephone { get; set; }
+        public Guid PersonId { get; set; }
+
+        public virtual Person Person { get; set; }
     }
 }

@@ -22,6 +22,6 @@ namespace CodeFirst.EFCore.Entities
         public Guid PersonId { get; set; }
         public string Name { get; set; }
 
-        public virtual ICollection<Phone> Phones { get; set; }
+        public virtual ICollection<Phone> Phone { get; set; }
     }
 }
