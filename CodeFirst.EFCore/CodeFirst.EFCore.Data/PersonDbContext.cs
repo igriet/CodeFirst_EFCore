@@ -9,12 +9,22 @@ namespace CodeFirst.EFCore.Data
 {
     public class PersonDbContext : DbContext
     {
-        public PersonDbContext(DbContextOptions options) : base(options)
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("CodeFirstEFCoreDBConnection");
+        //    base.OnConfiguring(optionsBuilder);
+        //}
+
+        //public DbSet<Person> People { get; set; }
+        //public DbSet<Phone> Phones { get; set; }
+        public PersonDbContext()
         {
 
         }
 
-        public DbSet<Person> People { get; set; }
-        public DbSet<Phone> Phones { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

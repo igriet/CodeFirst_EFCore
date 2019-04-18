@@ -5,15 +5,23 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CodeFirst.EFCore.Entities
 {
-    [Table("Person")]
+    //[Table("Person")]
+    //public class Person
+    //{
+    //    [Key]
+    //    public Guid PersonID { get; set; }
+    //    public DateTime BirthDate { get; set; }
+    //    public string Name { get; set; }
+    //    public int RandomNumber { get; set; }
+
+    //    public virtual ICollection<Phone> Phones { get; set; }
+    //}
+
     public class Person
     {
-        [Key]
-        public Guid PersonID { get; set; }
-        public DateTime BirthDate { get; set; }
+        public Guid PersonId { get; set; }
         public string Name { get; set; }
-        public int RandomNumber { get; set; }
 
-        public ICollection<Phone> Phones { get; set; }
+        public virtual ICollection<Phone> Phones { get; set; }
     }
 }

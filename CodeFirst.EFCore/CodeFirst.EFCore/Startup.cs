@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CodeFirst.EFCore.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace CodeFirst.EFCore
 {
@@ -24,7 +19,7 @@ namespace CodeFirst.EFCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DbContext>(opt => opt.UseSqlServer(Configuration["CodeFirstEFCoreDBConnection"]));
+            services.AddDbContext<PersonDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CodeFirstEFCoreDBConnection")));
             services.AddMvc();
         }
 

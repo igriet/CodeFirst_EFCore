@@ -8,3 +8,4 @@ C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\n
 C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.AssemblyInfo.cs
 C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.dll
 C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.pdb
+C:\Repos\CodeFirst_EFCore\CodeFirst.EFCore\CodeFirst.EFCore.Entities\obj\Debug\netcoreapp2.0\CodeFirst.EFCore.Entities.csprojAssemblyReference.cache
