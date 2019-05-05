@@ -27,5 +27,25 @@ namespace CodeFirst.EFCore.Domain
         {
             return _context.Set<Person>().AsQueryable();
         }
+
+        public Person GetById(Guid id)
+        {
+            return _context.People.FirstOrDefault(p => p.PersonId == id);
+        }
+
+        public void UpdatePerson(Person person)
+        {
+            Person oldPerson = this.GetById(person.PersonId);
+            oldPerson.Name = person.Name;
+            _context.Set<Person>().Update(oldPerson);
+            _context.SaveChanges();
+        }
+
+        public void DeletePerson(Guid id)
+        {
+            Person person = this.GetById(id);
+            _context.Set<Person>().Remove(person);
+            _context.SaveChanges();
+        }
     }
 }

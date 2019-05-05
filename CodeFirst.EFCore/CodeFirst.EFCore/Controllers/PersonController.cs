@@ -15,44 +15,46 @@ namespace CodeFirst.EFCore.Controllers
     public class PersonController : Controller
     {
         private PersonDbContext _context;
+        private readonly PersonDomain _domain;
 
         public PersonController(PersonDbContext context)
         {
             _context = context;
+            _domain = new PersonDomain(_context);
         }
         // GET: api/Person
         [HttpGet]
         public IEnumerable<Person> Get()
         {
-            var domain = new PersonDomain(_context);
-            return domain.GetAll();
+            return _domain.GetAll();
         }
 
         // GET: api/Person/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public Person Get(Guid id)
         {
-            return "value";
+            return _domain.GetById(id);
         }
 
         // POST: api/Person
         [HttpPost]
         public void Post([FromBody]Person value)
         {
-            var domain = new PersonDomain(_context);
-            domain.AddPerson(value);
+            _domain.AddPerson(value);
         }
         
         // PUT: api/Person/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [HttpPut]
+        public void Put([FromBody]Person value)
         {
+            _domain.UpdatePerson(value);
         }
         
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void Delete(Guid id)
         {
+            _domain.DeletePerson(id);
         }
     }
 }
