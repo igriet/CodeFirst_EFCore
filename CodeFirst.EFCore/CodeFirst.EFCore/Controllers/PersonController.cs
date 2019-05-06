@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CodeFirst.EFCore.Data;
 using CodeFirst.EFCore.Domain;
 using CodeFirst.EFCore.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CodeFirst.EFCore.Controllers
@@ -30,7 +27,7 @@ namespace CodeFirst.EFCore.Controllers
         }
 
         // GET: api/Person/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetPerson")]
         public Person Get(Guid id)
         {
             return _domain.GetById(id);
@@ -50,7 +47,7 @@ namespace CodeFirst.EFCore.Controllers
             _domain.UpdatePerson(value);
         }
         
-        // DELETE: api/ApiWithActions/5
+        // DELETE: api/Person/5
         [HttpDelete("{id}")]
         public void Delete(Guid id)
         {
